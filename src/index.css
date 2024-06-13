@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+.rr{
+  border : 2px solid red;
+}
+
+
+.bb{
+  border : 2px solid blue;
+}
+
+.gg{
+  border : 2px solid green;
+}
+
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.bg-white-clr{
+  background-color: #fff !important;
+  border : 3px solid red !important;
+}
